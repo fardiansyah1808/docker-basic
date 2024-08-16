@@ -1,0 +1,5 @@
+# Mengabaikan direktori backup
+/backup/
+
+# Mengabaikan direktori data MongoDB
+/mongo-data/

@@ -1,0 +1,1 @@
+docker container create --name mongo-container -p 27017:27017 --mount "type=volume,source=mongo-volume,destination=/data/db" -e MONGO_INITDB_ROOT_USERNAME=fardi -e MONGO_INITDB_ROOT_PASSWORD=12345 mongo:latest

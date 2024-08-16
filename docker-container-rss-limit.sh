@@ -1,0 +1,1 @@
+docker container create --name smallnginx -p 8081:80 -m 100M --cpus 0.5 nginx:latest
